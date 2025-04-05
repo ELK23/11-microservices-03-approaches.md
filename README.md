@@ -29,8 +29,8 @@
 
 ### 5. Запуск агентов на своих серверах: GitLab Runner
 - Self-hosted раннеры:
-- Развертывание на собственных серверах (Docker, Kubernetes, shell).
-- Поддержка автоскейлинга через Docker Machine или Kubernetes.
+    - Развертывание на собственных серверах (Docker, Kubernetes, shell).
+    - Поддержка автоскейлинга через Docker Machine или Kubernetes.
 - Параллельные сборки: Настройка concurrent в config.toml раннера.
 - Развертывание приложений через Helm или GitLab Auto DevOps.
 
