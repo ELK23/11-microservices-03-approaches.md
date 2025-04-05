@@ -23,8 +23,8 @@
 
 ### 4. Сборка проектов в Docker
 - Собственные образы для сборки:
-- Использование image в .gitlab-ci.yml.
-- Возможность загружать свои образы в GitLab Container Registry.
+  - Использование image в .gitlab-ci.yml.
+  - Возможность загружать свои образы в GitLab Container Registry.
 - Docker-in-Docker (dind) для сборки и публикации образов.
 
 ### 5. Запуск агентов на своих серверах: GitLab Runner
