@@ -109,14 +109,6 @@ cAdvisor (или Docker Exporter) – сбор метрик контейнеро
 Kubernetes Metrics Server (если используется Kubernetes) – сбор метрик подов.
 Custom Exporters (при необходимости) – для специфичных метрик сервисов.
 
-Схема работы
-Микросервисы → (Prometheus Client Libraries / Exporters)  
-               ↓  
-Хосты → Node Exporter → Prometheus (сбор + хранение) → Grafana (визуализация)  
-               ↑  
-Контейнеры → cAdvisor  
-               ↑  
-Kubernetes → kube-state-metrics / Metrics Server (если есть k8s)  
 Обоснование выбора
 1. Prometheus – сбор и хранение метрик
 - Pull-модель – сам собирает метрики с экспортеров (нет потерь данных).
